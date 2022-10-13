@@ -2,8 +2,9 @@
 
 /**
  * I do not have any logical thing tosay as a comment
- * int main - Short description
+ *main - Short description
  *
+ *Return: 0 q 
  */
 int main(void)
 {
