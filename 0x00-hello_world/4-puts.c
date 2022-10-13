@@ -1,15 +1,12 @@
 #include <stdio.h>
 
 /**
- * I do not have any logical thing tosay as a comment
- *main - Short description
+ * main - Begining of program
  *
- *Return: 0 q 
+ * Return: 0 q 
  */
 int main(void)
 {
-
 	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
-
+	return (0);
 }
