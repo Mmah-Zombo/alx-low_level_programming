@@ -2,8 +2,7 @@
 
 /**
  * main - Begining of program
- *
- * Return: 0 q 
+ * Return: 0 q
  */
 int main(void)
 {
