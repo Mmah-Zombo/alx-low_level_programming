@@ -10,7 +10,7 @@ int main(void)
 
 	int check;
 
-	for (check = 97; check <123; check++)
+	for (check = 97; check < 123; check++)
 		putchar(check);
 
 	putchar('\n');
