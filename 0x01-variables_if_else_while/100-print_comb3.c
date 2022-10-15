@@ -16,15 +16,15 @@ int main(void)
 		{
 			putchar(num);
 			putchar(num2);
-			a += 1;
-			if (num + num2 != 105)
+			if (num + num2 != 113)
 			{
 				putchar(',');
 				putchar(' ');
 
 			}
 		}
+		a += 1;
 	}
-
+	putchar('\n');
 	return (0);
 }
