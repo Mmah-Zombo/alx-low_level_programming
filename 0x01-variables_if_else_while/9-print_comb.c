@@ -8,9 +8,11 @@ int main(void)
 {
 	int comb;
 
-	for (comb = 48; comb < 58; comb++) {
+	for (comb = 48; comb < 58; comb++)
+	{
 		putchar(comb);
 		if (comb < 57)
+			putchar(' ')
 			putchar(',');
 	}
 	putchar('\n');
