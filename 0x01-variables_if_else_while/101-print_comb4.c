@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-	int num, num2, num3, a, b;
+	int num, num2, num3, a, b, c;
 
 	a = 49;
 	b = 50;
+	c = 50;
 
 	for (num = 48; num < 58; num++)
 	{
-		for (num2 = a; num2 < 58; num2++)
+		for (num2 = a; num2 < 57; num2++)
 		{
 			for (num3 = b; num3 < 58; num3++)
 			{
@@ -26,9 +27,11 @@ int main(void)
 					putchar(' ');
 				}
 			}
-		b += 1;
+			b += 1;
 		}
-	a += 1;
+		a += 1;
+		c += 1;
+		b = c;
 	}
 	putchar('\n');
 	return (0);
