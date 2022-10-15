@@ -12,8 +12,10 @@ int main(void)
 	{
 		putchar(comb);
 		if (comb < 57)
+		{
 			putchar(' ');
 			putchar(',');
+		}
 	}
 	putchar('\n');
 
