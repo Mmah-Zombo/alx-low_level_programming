@@ -26,9 +26,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
+		b += 1;
 		}
 	a += 1;
-	b += 1;
 	}
 	putchar('\n');
 	return (0);
