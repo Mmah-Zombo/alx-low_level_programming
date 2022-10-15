@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int num, num2, filter;
+	int num, num2, a;
 
 	a = 49;
 
