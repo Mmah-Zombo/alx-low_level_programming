@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
  * main - entrt point
- * Return: 0 always 
+ * Return: 0 always
  */
 int main(void)
 {
