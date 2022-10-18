@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-char* _putchar(void)
+void _putchar(void)
 {
-	return printf("abcdefghijklmnopqrsnuvwxyz\n");
+	printf("abcdefghijklmnopqrsnuvwxyz\n");
 }
 
 void print_alphabet(void)
