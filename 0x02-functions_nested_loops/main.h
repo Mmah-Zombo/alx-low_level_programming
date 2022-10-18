@@ -1,6 +1,7 @@
+#include <stdio.h>
 char* _putchar(void)
 {
-	printf("abcdefghijklmnopqrstuvwxyz\n");
+	retutn printf("abcdefghijklmnopqrsnuvwxyz\n");
 }
 
 void print_alphabet(void)
