@@ -4,8 +4,14 @@
  * main -entry
  * Return: 0 always
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char mr;
+
+	for (mr = 'a'; mr <= 'z'; mr++)
+	{
+		_putchar(mr);
+	}
+	_putchar('\n');
 	return (0);
 }
