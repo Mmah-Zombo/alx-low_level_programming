@@ -4,7 +4,7 @@
  * _abs - print out absolute values
  * Return: whaterver
  */
-int _abs(int)
+int _abs(int d)
 {
-	 return abs(int);
+	 return abs(d);
 }
