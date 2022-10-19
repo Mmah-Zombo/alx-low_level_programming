@@ -2,6 +2,8 @@
 
 /**
  * _islower - start here
+ * @c: the letter
+ *
  * Return: 1 or 0
  */
 int _islower(int c)
