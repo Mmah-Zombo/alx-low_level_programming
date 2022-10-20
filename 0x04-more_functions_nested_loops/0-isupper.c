@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _isupper - enter her
  * @c: value to be checked
  *
- * Return: 1 or 0 
+ * Return: 1 or 0
  */
 int _isupper(int c)
 {
