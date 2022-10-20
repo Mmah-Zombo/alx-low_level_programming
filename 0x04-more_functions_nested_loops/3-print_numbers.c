@@ -1,16 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_numbers - enter here
  */
 void print_numbers(void)
 {
-	int i;
+	int me;
 
-	for ( i = 48; i <= 57; i++)
+	for (me = 48; me <= 57; me++)
 	{
-		_putchar(i);
+		_putchar(me);
 	}
 	_putchar('\n');
 }
