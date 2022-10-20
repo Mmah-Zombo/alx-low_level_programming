@@ -10,7 +10,7 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (ut = 0; ut <= n; ut++)
+		for (ut = 1; ut <= n; ut++)
 		{
 			_putchar(95);
 		}
