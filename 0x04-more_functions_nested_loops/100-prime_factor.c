@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - start
@@ -8,6 +7,7 @@
 int main(void)
 {
 	long int so, done, hP;
+
 	so = 612852475143;
 	done = 2;
 
@@ -17,6 +17,7 @@ int main(void)
 		{
 			done = done + 1;
 		}
+
 		else
 		{
 			hp = so;
@@ -28,5 +29,6 @@ int main(void)
 			}
 		}
 	}
+
 	return (0);
 }
