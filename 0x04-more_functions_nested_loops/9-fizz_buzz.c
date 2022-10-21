@@ -2,6 +2,7 @@
 
 /**
  * main - enter here
+ *
  * Return: 0 always
  */
 int main(void)
@@ -27,7 +28,7 @@ int main(void)
 		}
 		if (num % 5 == 0 && num % 3 == 0)
 		{
-			printf("FizzBuzz ";
+			printf("FizzBuzz ");
 		}
 		else
 		{
