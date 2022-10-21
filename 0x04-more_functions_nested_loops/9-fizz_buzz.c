@@ -30,7 +30,7 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else
+		if (num % 5 != 0 && num % 3 != 0)
 		{
 			printf("%d ", num);
 		}
