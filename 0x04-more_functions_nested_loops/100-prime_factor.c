@@ -6,22 +6,21 @@
  */
 int main(void)
 {
-	long int n, done, hP;
-
-	n = 612852475143;
+	long int so, done, hP;
+	so = 612852475143;
 	done = 2;
-	
-	while (n != 0)
+
+	while (so != 0)
 	{
-		if (n % done !=0)
+		if (so % done != 0)
 		{
 			done = done + 1;
 		}
 		else
 		{
-			hp = n;
-			n = n / done;
-			if (n == 1)
+			hp = so;
+			so = so / done;
+			if (so == 1)
 			{
 				printf("%ld\n", hp);
 				break;
