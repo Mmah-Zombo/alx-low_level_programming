@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	long int so, done, hP;
+	long int so, done, hp;
 
 	so = 612852475143;
 	done = 2;

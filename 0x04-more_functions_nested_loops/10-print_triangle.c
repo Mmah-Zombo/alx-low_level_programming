@@ -6,8 +6,9 @@
  */
 void print_triangle(int size)
 {
-		int a, b, c;
-		b = 1;
+	int a, b, c;
+
+	b = 1;
 
 	if  (size > 0)
 	{
@@ -31,7 +32,6 @@ void print_triangle(int size)
 			b++;
 			_putchar('\n');
 		}
-	_putchar('\n');
 	}
 
 	if (size <= 0)
