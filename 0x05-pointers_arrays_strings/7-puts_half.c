@@ -6,7 +6,7 @@
  * puts_half - start here
  * @str: value to be checked
  */
-void pts_half(char *str)
+void puts_half(char *str)
 {
 	int b, hey, half;
 
