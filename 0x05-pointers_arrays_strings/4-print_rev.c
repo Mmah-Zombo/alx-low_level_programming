@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
  * print_rev - enter here
@@ -10,7 +12,7 @@ void print_rev(char *s)
 
 	char bay[100];
 
-	int b = _strlen(s) - 1;
+	int b = strlen(s) - 1;
 
 	c = 0;
 
@@ -20,5 +22,5 @@ void print_rev(char *s)
 		c++;
 	}
 
-	_puts(bay);
+	puts(bay);
 }
