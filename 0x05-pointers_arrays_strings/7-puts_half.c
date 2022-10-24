@@ -14,11 +14,11 @@ void puts_half(char *str)
 
 	if (b % 2 == 0)
 	{
-		half = b % 2;
+		half = b / 2;
 	}
 	if (b % 2 != 0)
 	{
-		half = (b - 1) % 2;
+		half = (b - 1) / 2;
 	}
 	for (hey = (half - 1); hey < b; hey++)
 	{
