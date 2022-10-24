@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - enter here
- * @*n: varaible to look at
+ * @n: varaible to look at
  */
 void reset_to_98(int *n)
 {
