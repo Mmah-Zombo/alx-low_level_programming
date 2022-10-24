@@ -6,15 +6,13 @@
  */
 void print_rev(char *s)
 {
-	int i, c, de;
+	int i, c;
 
-	c = 0;
-
-	de = _strlen(s) + 1;
-
-	char bay[de];
+	char bay[100];
 
 	int b = _strlen(s) - 1;
+
+	c = 0;
 
 	for (i = b; i >= 0; i--)
 	{
