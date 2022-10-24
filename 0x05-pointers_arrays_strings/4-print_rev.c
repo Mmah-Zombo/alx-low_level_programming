@@ -8,19 +8,12 @@
  */
 void print_rev(char *s)
 {
-	int i, c;
+	int i;
 
-	char bay[];
-
-	int b = strlen(s) - 1;
-
-	c = 0;
-
-	for (i = b; i >= 0; i--)
+	for (i = strlen(s) - 1; i >= 0; i--)
 	{
-		bay[c] = s[i];
-		c++;
+		printf("%c", s[i]);
 	}
 
-	puts(bay);
+	putchar('\n');
 }
