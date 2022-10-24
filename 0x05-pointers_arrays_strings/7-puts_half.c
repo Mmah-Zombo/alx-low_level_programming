@@ -20,9 +20,19 @@ void puts_half(char *str)
 	{
 		half = (b - 1) / 2;
 	}
-	for (hey = (half + 1); hey < b; hey++)
+	if (b % 2 != 0)
 	{
-		printf("%c", str[hey]);
+		for (hey = (half + 1); hey < b; hey++)
+		{
+			printf("%c", str[hey]);
+		}
+	}
+	if (b % 2 == 0)
+	{
+		for (hey = half; hey < b; hey++)
+		{
+			printf("%c", str[hey]);
+		}
 	}
 	putchar('\n');
 }
