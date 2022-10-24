@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 	int i, c;
 
-	char bay[100];
+	char bay[];
 
 	int b = strlen(s) - 1;
 
