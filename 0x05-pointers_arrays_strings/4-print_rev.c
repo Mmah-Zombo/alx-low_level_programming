@@ -6,11 +6,14 @@
  */
 void print_rev(char *s)
 {
-	int i, c;
+	int i, c, de;
 
 	c = 0;
 
-	char bay[_strlen(s) + 1];
+	de = _strlen(s) + 1;
+
+	char bay[de];
+
 	int b = _strlen(s) - 1;
 
 	for (i = b; i >= 0; i--)
