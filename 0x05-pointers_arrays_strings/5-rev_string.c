@@ -15,7 +15,7 @@ void rev_string(char *s)
 	{
 		checker++;
 	}
-	for (me = (check - 1); me >= 0; me--)
+	for (me = (checker - 1); me >= 0; me--)
 	{
 		putchar(s[me]);
 	}
