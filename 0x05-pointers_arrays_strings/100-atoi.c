@@ -12,6 +12,7 @@
 int _atoi(char *s)
 {
 	int i, j, k, je;
+	char p[58];
 
 	srand(time(NULL));
 	while (je != 2772)
