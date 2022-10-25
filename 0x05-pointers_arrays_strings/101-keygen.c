@@ -1,36 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "main.h"
 
 /**
- * _atoi - random password generator for 101-crackme
- * @s: value to be tested
+ * main - random password generator for 101-crackme
  *
  * Return: always 0
  */
-int _atoi(char *s)
+int main(void)
 {
-	int i, j, k, je;
+	int i, j, k, s;
+	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char p[58];
 
 	srand(time(NULL));
-	while (je != 2772)
+	while (s != 2772)
 	{
-		i = k = je = 0;
-		while ((2772 - 122) > je)
+		i = k = s = 0;
+		while ((2772 - 122) > s)
 		{
 			j = rand() % 62;
-			p[i] = s[j];
-			je += s[j];
+			p[i] = c[j];
+			s += c[j];
 			i++;
 		}
-		while (s[k])
+		while (c[k])
 		{
-			if (s[k] == (2772 - je))
+			if (c[k] == (2772 - s))
 			{
-				p[i] = s[k];
-				je += s[k];
+				p[i] = c[k];
+				s += c[k];
 				i++;
 				break;
 			}
@@ -40,4 +39,4 @@ int _atoi(char *s)
 	p[i] = '\0';
 	printf("%s", p);
 	return (0);
-}
+} 
