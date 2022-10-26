@@ -8,41 +8,25 @@
  */
 char *leet(char *z)
 {
-	int i, a, c;
+	int i, ltrcheck;
+	char letters[] = "aAeEoOtTlL";
+	char replace[] = "4433007711";
 
-	a = 0;
+	i = 0;
 
-	c = 0;
-
-	for (i = 0; z[i] != '\0'; i++)
+	while (z[i] != '\0')
 	{
-		a++;
-	}
-
-	while (c <= a)
-	{
-		if (z[c] == 'a' || z[c] == 'A')
+		ltrcheck = 0;
+		
+		while (ltrcheck < 10)
 		{
-			z[c] = '4';
+			if (z[i] == letters[ltrcheck])
+			{
+				z[i] = replace[ltrcheck];
+			}
+			ltrcheck++;
 		}
-		if (z[c] == 'e' || z[c] == 'E')
-		{
-			z[c] = '3';
-		}
-		if (z[c] == 'o' || z[c] == 'O')
-		{
-			z[c] = '0';
-		}
-		if (z[c] == 't' || z[c] == 'T')
-		{
-			z[c] = '7';
-		}
-		if (z[c] == 'l' || z[c] == 'T')
-		{
-			z[c] = '1';
-		}
-
-		c++;
+		i++;
 	}
 
 	return (z);
