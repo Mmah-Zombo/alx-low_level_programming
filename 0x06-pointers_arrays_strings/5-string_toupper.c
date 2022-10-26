@@ -2,6 +2,7 @@
 
 /**
  * *string_toupper - start here
+ * @z: array of letters
  *
  * Return: characters or arrays
  */
