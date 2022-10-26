@@ -9,6 +9,7 @@
 char *leet(char *z)
 {
 	int i, ltrcheck;
+
 	char letters[] = "aAeEoOtTlL";
 	char replace[] = "4433007711";
 
@@ -17,7 +18,7 @@ char *leet(char *z)
 	while (z[i] != '\0')
 	{
 		ltrcheck = 0;
-		
+
 		while (ltrcheck < 10)
 		{
 			if (z[i] == letters[ltrcheck])
