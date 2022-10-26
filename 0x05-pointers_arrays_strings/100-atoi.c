@@ -6,7 +6,7 @@
  * _atoi - start here
  * @s: value to convert
  *
- * Return: an int 
+ * Return: an int
  */
 int _atoi(char *s)
 {
