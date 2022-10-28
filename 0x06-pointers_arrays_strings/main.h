@@ -14,4 +14,5 @@ int _putchar(int n);
 void print_buffer(char *b, int size);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 char *rot13(char *);
+char *cap_string(char *);
 #endif
