@@ -6,7 +6,7 @@
  * @s: idk
  * @accept: idk
  *
- * Return: d nbr of bytes in d initial segment of s which consist only of bytes 4rm accept
+ * Return: d nbr of bytes in d initial segment of s ...
  */
 unsigned int _strspn(char *s, char *accept)
 {
