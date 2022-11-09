@@ -15,12 +15,9 @@ char *str_concat(char *s1, char *s2)
 
 	anoda = strcat(s1, s2);
 
-	if (anode == NULL)
-	{
-		return (NULL);
-	}
+	unsigned int i = sizeof(anoda);
 
-	if (sizeof(anoda) == NULL)
+	if (i == NULL)
 	{
 		return (NULL);
 	}
