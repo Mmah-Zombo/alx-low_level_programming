@@ -1,28 +1,22 @@
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
- * str_concat - function name
- * @s1: value one
- * @s2: string two
+ * str_concat - concatenates two strings.
+ * @s1: first string.
+ * @s2: second string.
  *
- * Return: a pointer
+ * Return: pointer of an array of chars
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *anoda;
-	char *i;
-	unsigned int i, j;
+	char *strout;
+	unsigned int i, j, k, limit;
 
 	if (s1 == NULL)
-	{
 		s1 = "";
-	}
 	if (s2 == NULL)
-	{
 		s2 = "";
-	}
 
 	for (i = 0; s1[i] != '\0'; i++)
 		;
@@ -30,15 +24,15 @@ char *str_concat(char *s1, char *s2)
 	for (j = 0; s2[j] != '\0'; j++)
 		;
 
-	i = malloc(sizeof(char) * (i + j + 1));
+	strout = malloc(sizeof(char) * (i + j + 1));
 
-	if (i == NULL)
+	if (strout == NULL)
 	{
-		free(i);
+		free(strout);
 		return (NULL);
 	}
 
-	anoda = strcat(s1, s2);
+	strout = strcat(s1, s2);
 
-	return (anoda);
+	return (strout);
 }
