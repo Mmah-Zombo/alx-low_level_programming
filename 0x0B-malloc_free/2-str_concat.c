@@ -25,7 +25,7 @@ char *str_concat(char *s1, char *s2)
 
 	anoda = strcat(s1, s2);
 
-	i = malloc(sizeof(anoda));
+	i = malloc(sizeof(char) * sizeof(anoda));
 
 	if (i == NULL)
 	{
