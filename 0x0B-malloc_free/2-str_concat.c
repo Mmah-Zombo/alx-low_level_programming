@@ -13,6 +13,7 @@ char *str_concat(char *s1, char *s2)
 {
 	char *anoda;
 	char *i;
+	unsigned int i, j;
 
 	if (s1 == NULL)
 	{
@@ -23,14 +24,21 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	}
 
-	anoda = strcat(s1, s2);
+	for (i = 0; s1[i] != '\0'; i++)
+		;
 
-	i = malloc(sizeof(char) * sizeof(anoda));
+	for (j = 0; s2[j] != '\0'; j++)
+		;
+
+	i = malloc(sizeof(char) * (i + j + 1));
 
 	if (i == NULL)
 	{
 		free(i);
 		return (NULL);
 	}
+
+	anoda = strcat(s1, s2);
+
 	return (anoda);
 }
