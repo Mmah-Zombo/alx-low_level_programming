@@ -29,6 +29,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (i == NULL)
 	{
+		free(i);
 		return (NULL);
 	}
 	return (anoda);
