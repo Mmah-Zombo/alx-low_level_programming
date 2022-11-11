@@ -7,7 +7,7 @@
  * @nmemb: value one
  * @size: value two
  *
- * Retrun: pointer
+ * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
