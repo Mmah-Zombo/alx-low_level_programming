@@ -11,14 +11,15 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *try;
-
-	try = malloc(nmemb * size);
+	void *try;
 
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
+
+	try = malloc(nmemb * size);
+
 	if (try == NULL)
 	{
 		return (NULL);
