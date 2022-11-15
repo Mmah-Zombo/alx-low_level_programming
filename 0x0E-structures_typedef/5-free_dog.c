@@ -1,8 +1,9 @@
 #include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
-* free_dog - function
+* free_dog - function name
 * @d: pointer to dog
 *
 * Description: function to free dogs
@@ -10,8 +11,6 @@
 */
 void free_dog(dog_t *d)
 {
-	if (d == 0)
-		return;
 	free(d->name);
 	free(d->owner);
 	free(d);
