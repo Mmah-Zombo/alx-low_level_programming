@@ -3,12 +3,11 @@
 #include <stdlib.h>
 
 /**
- * print_list - function that prints d nmbr of elements a list
+ * print_list - prints d nmbr of elements a list
  * @h: a list_h pionter
  *
  * Return: the number of nodes
  */
-
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
