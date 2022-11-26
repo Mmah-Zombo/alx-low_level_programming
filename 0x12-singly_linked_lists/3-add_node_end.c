@@ -16,7 +16,9 @@ list_t *add_node_end(list_t **head, const char *str)
 	list_t *hptr = *head;
 
 	if (!newn)
+	{
 		return(NULL);
+	}
 
 	newn->str = strdup(str);
 	newn->len = strlen(str);
@@ -35,5 +37,5 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	hptr->next = newn;
 
-		return (newn);
+	return (newn);
 }
