@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print the name of the executable.
- * @argc: argument count or size of arguments.
- * @argv: argument vector
+ * main - the main function
+ * @argc: number of arguments passed to main
+ * @argv: the list of arguments passed
  *
- * Return: always 0.
+ * Return: 0
  */
 int main(int argc __attribute__((unused)), char **argv)
 {
 	printf("%s\n", *argv);
 	return (0);
-}
+} 
