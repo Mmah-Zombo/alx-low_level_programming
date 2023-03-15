@@ -1,17 +1,18 @@
 #include "dog.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
-* free_dog - function name
-* @d: pointer to dog
-*
-* Description: function to free dogs
-* Return: 0 Success
-*/
+ * free_dog - frees dogs.
+ * @d: struct dog.
+ *
+ * Return: no return.
+ */
 void free_dog(dog_t *d)
 {
-	free(d->name);
-	free(d->owner);
-	free(d);
+	if (d)
+	{
+		free(d->name);
+		free(d->owner);
+		free(d);
+	}
 }
